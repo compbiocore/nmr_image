@@ -47,7 +47,7 @@ RUN cd /home/ubuntu/ \
   && wget https://sourceforge.net/projects/wxpython/files/wxPython/3.0.2.0/wxPython-src-3.0.2.0.tar.bz2/download \
   && tar xvfj download \
   && rm download \
-  && python /home/ubuntu/wxPython-src-3.0.2.0/wxPython/build-wxpython.py \
+  && python /home/ubuntu/wxPython-src-3.0.2.0/wxPython/build-wxpython.py
 
 ENV PYTHONPATH "/home/ubuntu/wxPython-src-3.0.2.0/wxPython"
 
